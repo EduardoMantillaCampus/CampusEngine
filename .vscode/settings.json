@@ -1,0 +1,7 @@
+{
+    "liveServer.settings.port": 5502,
+    "conventionalCommits.scopes": [
+        "CampusEngine",
+        "Campus"
+    ]
+}

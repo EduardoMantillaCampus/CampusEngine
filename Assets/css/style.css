@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+#cafeteriaVirtual{
+    text-decoration: none;
+    margin-top: 15px;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+}   
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1c1c6b;
+}
+nav  a{
+    color: #fff;
+    text-decoration: none;
+}
+nav img{
+    width: 80px;
+}
+nav a img{
+    width: 40px;
+}
+
+.content{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+.content h1{
+    font-size: 30px;
+}
+
+.informativa-inicio{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 0 70px;
+}
+.informativa-inicio h3{
+    margin: 40px 0 20px;
+}
+.informativa-inicio h4{
+    text-align: center;
+    font-weight: 400;
+}
+
+.contacto-inicio{
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+    align-items: center;
+}
+.contacto-inicio img{
+    width: 400px;
+}
+.contact{
+    display: flex;
+    padding: 10px 0;
+}
+.contact img{
+    width: 40px;
+    padding: 0 10px;
+}
+.targets{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 90px;
+}
+
+.target{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    box-shadow: 1px 3px 5px gray;
+    margin: 0px 10px;
+}
+.target img{
+    width: 200px;
+}
+.target button{
+    background-color: #ac8227;
+    color: #fff;
+    width: 70px;
+    padding: 5px 10px;
+    border: none;
+    margin-top: 10px;
+}
+.catalogo{
+    display: flex;
+    margin: 70px 0;
+    flex-direction: column;
+}
+.catalogo h2{
+    text-align: center;
+}
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.producto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    margin:  0 30px;
+    width: 300px;
+}
+.producto img{
+    width: 100%;
+}
+.producto .img-producto{
+    background-position: center;
+    width: 100%;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button{
+    background-color: rgb(238, 223, 21) !important;
+    color: black;
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.preFrecuentes{
+    width: 1000px;
+    padding: 30px ;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin: 30px 0;
+}
+.preFrecuentes h1{
+    font-size: 20px;
+}
+.preFrecuentes p{
+    padding: 30px 0;
+    font-size: 15px;
+}
